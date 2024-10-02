@@ -30,7 +30,7 @@ section.login {
     left: 50%;
     overflow: hidden;
 
-    background-color: white;
+    background-color: #B8FCF7;
     width: 251px;
     height: 515px;
     border-radius: 5px;
@@ -55,3 +55,21 @@ div.formulario > h1 {
     margin-bottom: 10px;
 }
 
+form > div.campo {
+    background-color: #055959;
+    border: 2px solid #055959;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.compo > i {
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+    width: 40px;
+}
